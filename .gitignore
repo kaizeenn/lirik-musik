@@ -1,0 +1,9 @@
+#  Documentation.
+#  - Official: 'https://git-scm.com/docs/gitignore'.
+#  - Quick introduction: 'https://docs.github.com/en/get-started/git-basics/ignoring-files'.
+#    - Example of common exclusions: 'https://gist.github.com/octocat/9257657', like
+#+     compiled files, compressed packages, logs, and OS generated files.
+#  - Examples: 'https://www.atlassian.com/git/tutorials/saving-changes/gitignore'.
+
+#  TEMP: dev. folder for version 'v250811'.
+rsrcs/v250811

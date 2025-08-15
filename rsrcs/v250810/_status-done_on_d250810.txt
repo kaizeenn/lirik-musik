@@ -1,0 +1,3 @@
+Example of names, showing status:
+- WIP:      '_status-wip_since_d250810.txt'.
+- Done:     '_status-done_on_d250902.txt'.
