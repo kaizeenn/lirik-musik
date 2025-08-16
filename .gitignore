@@ -5,5 +5,8 @@
 #+     compiled files, compressed packages, logs, and OS generated files.
 #  - Examples: 'https://www.atlassian.com/git/tutorials/saving-changes/gitignore'.
 
+#  'mp3' audio files.
+*.mp3
+
 #  TEMP: dev. folder for version 'v250811'.
 rsrcs/v250811
