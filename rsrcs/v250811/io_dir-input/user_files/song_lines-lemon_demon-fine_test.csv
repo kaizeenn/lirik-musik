@@ -1,0 +1,14 @@
+﻿line, line_character_delay, line_repetition, line_end_delay
+"[delay]", 0.2, 3, 0.4
+". . .", 0.2, 22, 1.2
+"(One, two, three, four)", 0.082, 1, 0.014
+". . .", 0.2, 8, 0.16
+"Today has a way of scarring your eyes", 0.085, 1, 0.005
+"With negative light, but it's a disguise", 0.096, 1, 0.02
+"I put on my shades and see through the lies", 0.082, 1, 0.014
+"The convenient truth is", 0.123, 1, 0.021
+"Light is on the way, we'll be having a fun time", 0.07, 1, 0.04
+"It's such a lovely day, we should pocket the sunshine", 0.077, 1, 0.029
+"And never give it back, even if there's a heat wave", 0.066, 1, 0.004
+"Or terrorist attack, it will just be a close shave", 0.064, 1, 0.04
+"I know (I know)", 0.215, 1, 0.005

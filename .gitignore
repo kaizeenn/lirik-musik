@@ -8,6 +8,8 @@
 #  'mp3' audio files.
 *.mp3
 
-#  TEMP: dev. folder for version 'v250811'.
-rsrcs/v250811
-# *-input_secrets.yaml
+#  Keys.
+*-input_secrets.yaml
+
+#  Specific files: original screen recording, to avoid doxing possibilities.  
+vid-readme_gif-01_original_footage.mp4

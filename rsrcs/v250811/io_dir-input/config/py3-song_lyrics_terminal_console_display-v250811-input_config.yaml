@@ -1,0 +1,44 @@
+#  PARAMETERS.
+
+#  'type':
+#  - 'null'                 : no need to fill 'value' field.
+#  - 'boolean'              : 'value' field ONLY accepts "True" or "False"; will default to 'False' otherwise.
+#  - 'string'               : any 'text' value. Recommended to use double-quotes (or single-quotes AT LEAST) to avoid miss-interpretations; e.g. '"A text."'
+#  - 'integer'              : any number, WITHOUT colon '.' for decimals or comma ',' for thousands. e.g. "1230".
+#  - 'decimal'              : any number, WITHOUT comma ',' for thousands. e.g. "1.35".
+#  - 'complex'              : a complex number; e.g. "5j".
+#  - 'range'                : ONLY whole (integer) numbers; e.g. "6".
+#  - 'list'                 : ONLY text, separated by pipes '|'. e.g. '"hello world|text n2|end text"'.
+#  - 'tuple'                : ONLY text, separated by pipes '|'. e.g. '"hello world|text n2|end text"'.
+#  - 'set'                  : ONLY text, separated by pipes '|'. e.g. '"hello world|text n2|end text"'.
+#  - 'date and/or time (with or without timezone)'  : format as '"YYYY/MM/DD HH:MM:SS.X[+/-]timezone(in HHMM)"', where YYYY: [1900, 2099], MM: [01, 12], DD: [01, 31], HH: [00, 23], MM: [00, 59], SS: [00, 59], X: [0, 999999]. It will assume UTC (+0000), if not provided; e.g. '"2011/08/15 12:45:01.095673-0500"'.
+#  - 'time duration'        : format as '"HH:MM:SS"', where HH: number (integer or decimal), MM: number (integer or decimal), SS: number (integer or decimal). e.g. 2 days > 24h*2 > '"48:00:00"'; 36 min and 2.56 sec > '"36:2.56"'.
+
+#  'sub-type':                NOTE: only used if 'type' is either 'list', 'tuple', or 'set'.
+#  - 'null'
+#  - 'boolean'
+#  - 'string'
+#  - 'integer'
+#  - 'decimal'
+#  - 'complex'
+#  - 'range'
+
+parameters:
+    -
+        name: _USER_GEOGRAPHIC_TIMEZONE
+        type: 'string'
+        subtype:
+        comment: "IANA time zones (e.g. 'Etc/GMT-4', 'EST', 'US/Eastern'). Full list available from running python codeline: 'zoneinfo.available_timezones()'. Ref.: 'https://docs.python.org/3/library/zoneinfo.html#zoneinfo.available_timezones', and 'https://en.wikipedia.org/wiki/List_of_tz_database_time_zones'."
+        value: 'America/Bogota'
+    -
+        name: _TIME_DELAY_FOR_START_OF_SONG_LINES_TYPEWRITER
+        type: 'integer'
+        subtype:
+        comment: "Delay in seconds."
+        value: 5
+    -
+        name: _INTERVAL_FOR_CLEARING_OUTPUT_AFTER_REGULAR_LINES
+        type: 'integer'
+        subtype:
+        comment: "Amount of regular lines (i.e. not delays, nor '...') to consider before clearing the console / terminal / CLI output. Mainly for readibility purposes."
+        value: 7
