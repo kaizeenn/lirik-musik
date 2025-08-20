@@ -49,7 +49,7 @@ Image width for GitHub READMEs:
  -->
 
 > [!NOTE]
-> 🎵 You can view this gif *with audio and listen to it* for **34 seconds**, to experience at it's fullest at [`rsrcs/media/vid-readme_gif-03_compact.mp4`](rsrcs/media/vid-readme_gif-03_compact.mp4) 🤩🎵.
+> 🎵 You can view this gif *with audio and listen to it* for **34 seconds**, to experience at it's fullest at [`vid-readme_gif-03_compact.mp4`](rsrcs/media/vid-readme_gif-03_compact.mp4) 🎵🤩.
 
 Personal take on recent <a href="https://www.tiktok.com/tag/rockthatbody">Tiktok's trend (as of August 2025)</a> of programming / coding in Python, that displays a song's lyrics in the console / terminal / CLI; usually the song <a href="https://www.youtube.com/watch?v=nmnjL26OBcY">'Rock that body', from The Black Eyed Peas</a> 🎶.
 
@@ -105,7 +105,7 @@ List of ideas to consider for new features:
 - Pull song lyrics from web portals with LRC files (e.g. '<https://www.lyricsify.com/lyrics/black-eyed-peas/rock-that-body>'), either via a provided API, or web scrapping.
 - Process LRC files to create list of tuples used as input, instead of **manually** creating and saving them as CSV files; e.g. `song_lines-black_eyed_peas-rock_that_body.csv`.
 - If it's available a copy of the song, locally in the computer, include launching song's playing, **coordinated in time** with the typewriter function.
-    - **[Specific to devcontainers]**: since using vscode with devcontainers for code development, research how to connect a container with local's machine audio card. *Some notes available on Jupyter Notebook of version 'v250811'*: `py3-song_lyrics_terminal_console_display-v250811.ipynb`.
+    - **[Specific to devcontainers]**: since using vscode with devcontainers for code development, research how to connect a container with local's machine audio card. *Some notes available on Jupyter Notebook of version 'v250811'*: [`py3-song_lyrics_terminal_console_display-v250811.ipynb`](rsrcs/v250811/py3-song_lyrics_terminal_console_display-v250811.ipynb).
 
 <!-- Embed dynamic content (image) of contributors:
 - 'https://dev.to/lacolaco/introducing-contributors-img-keep-contributors-in-readme-md-gci'.
