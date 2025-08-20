@@ -388,6 +388,10 @@ def UDFSongLinesTypewriter(ISongLinesList: list, ILinesIntervalOutputClearing: i
 def main():
     # print('Hello World')
 
+    #  'main()' INITIALIZATION.
+
+    UDFClearOutput()        #  Clear screen.
+
     #  INPUTS.
 
     #  Main directory.
@@ -551,6 +555,8 @@ def main():
         sleep(1)
     
     UDFSongLinesTypewriter(song_lines_list, _INTERVAL_FOR_CLEARING_OUTPUT_AFTER_REGULAR_LINES)
+
+    UDFClearOutput()        #  Clear screen.
 
 #  CODE EXECUTION.
 
