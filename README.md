@@ -43,7 +43,9 @@ Image width for GitHub READMEs:
 - 'https://github.com/orgs/community/discussions/42424'.
 - 'https://gist.github.com/uupaa/f77d2bcf4dc7a294d109'.
 -->
-
+<!-- <p align="center">
+    <img src="./rsrcs/media/img-readme_frontpage_media.png" width="1200" />
+</p> -->
 <p align="center">
   <img src="./rsrcs/media/img-readme_frontpage_gif.gif" width="1200" />
 </p>
