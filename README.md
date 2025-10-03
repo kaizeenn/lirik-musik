@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- Badges:
 - Source: 'https://shields.io/docs/static-badges', 'https://shields.io/badges/static-badge'.
 - HTML structure followed: 'https://github.com/facebook/docusaurus/blob/main/README.md?plain=1'.
@@ -208,3 +209,6 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 | [<img src="https://avatars.githubusercontent.com/u/32377614?v=4" width=70><br><sub>a1t0ghb</sub>](https://github.com/a1t0ghb) |
 | :---: |
+=======
+# lirik-musik
+>>>>>>> 78d08300acafd1a6e7f63f394f2bde874471ae2d
