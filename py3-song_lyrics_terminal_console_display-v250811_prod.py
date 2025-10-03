@@ -345,7 +345,11 @@ def UDFLoadCSVSongLines(ICsvFilepath: str) -> list:
 #     return None
 #
 #  [OP02] Using lambda, anonymous / nameless functions. Ref. 'https://www.freecodecamp.org/news/lambda-expressions-in-python/', 'https://www.geeksforgeeks.org/python/python-lambda-anonymous-functions-filter-map-reduce/'.
-UDFClearOutput = lambda: os.system('clear')
+if os.name == 'nt':
+    UDFClearOutput = lambda: os.system('cls')
+else:
+    UDFClearOutput = lambda: os.system('clear')
+
 
 #  Core function of displaying song lyrics / lines.
 #  - IT REQUIRES CUSTOM FUNCTION UDFClearOutput().
